@@ -5,13 +5,6 @@ import (
 	"github.com/BurntSushi/toml"
 )
 
-/*
-   作者：Jason
-   创建日期：2018/1/30
-   编辑日期：2018/1/30
-   功能描述：
-   修改详细描述
-*/
 
 type Config struct {
 	OldRedisAddrs    []string
