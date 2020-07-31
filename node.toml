@@ -1,0 +1,8 @@
+#以什么开头的key，如果是[""]代表导出所有的key
+DumpKeys         = ["xx","bb"]
+
+OldRedisAddrs    = ["192.168.212.205:8008"]
+OldRedisPassword = "123456"
+
+NewRedisAddrs    = ["192.168.212.205:8000"]
+NewRedisPassword = "123456"
