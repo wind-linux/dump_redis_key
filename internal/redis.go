@@ -9,14 +9,6 @@ import (
 	"github.com/go-redis/redis"
 )
 
-/*
-   作者：Jason
-   创建日期：2018/1/30
-   编辑日期：2018/1/30
-   功能描述：
-   修改详细描述
-*/
-
 func NewRedisEngine(addr, pwd string) (*redis.Client, error) {
 	opt := &redis.Options{
 		Addr:     addr,
